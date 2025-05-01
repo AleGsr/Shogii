@@ -26,11 +26,13 @@ public struct Board
 public struct Square
 {
     public int2 coor;
+    public Piece piece;
     public int2 GetCoor=> coor;
 
     public Square(int x, int y) 
     { 
         coor = new int2(x, y);
+        piece = null;
     }
 
 }

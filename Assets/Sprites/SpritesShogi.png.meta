@@ -1,0 +1,867 @@
+fileFormatVersion: 2
+guid: f5b27b02394d1b44cbbf4d4f909bbd71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6530723668172760487
+    second: SpritesShogi_0
+  - first:
+      213: -4656033320942740073
+    second: SpritesShogi_1
+  - first:
+      213: 7574008062427832804
+    second: SpritesShogi_2
+  - first:
+      213: -8810996827313463837
+    second: SpritesShogi_3
+  - first:
+      213: -6265734788907575438
+    second: SpritesShogi_4
+  - first:
+      213: -5792873349174702974
+    second: SpritesShogi_5
+  - first:
+      213: 6593477640752187430
+    second: SpritesShogi_6
+  - first:
+      213: 7814817922008921938
+    second: SpritesShogi_7
+  - first:
+      213: -1900310328211663073
+    second: SpritesShogi_8
+  - first:
+      213: 2705018897735884457
+    second: SpritesShogi_9
+  - first:
+      213: -4911900271233593747
+    second: SpritesShogi_10
+  - first:
+      213: -3031439734970320955
+    second: SpritesShogi_11
+  - first:
+      213: -1539975300476155924
+    second: SpritesShogi_12
+  - first:
+      213: -2166302806943663300
+    second: SpritesShogi_13
+  - first:
+      213: -6235831151653125733
+    second: SpritesShogi_14
+  - first:
+      213: 2905227909610725426
+    second: SpritesShogi_15
+  - first:
+      213: -2837667405721893744
+    second: SpritesShogi_16
+  - first:
+      213: -1595757495166186388
+    second: SpritesShogi_17
+  - first:
+      213: 5126136106597902796
+    second: SpritesShogi_18
+  - first:
+      213: -261496930059693245
+    second: SpritesShogi_19
+  - first:
+      213: 6332363881297807266
+    second: SpritesShogi_20
+  - first:
+      213: -1411173807896455022
+    second: SpritesShogi_21
+  - first:
+      213: -6444876246380057044
+    second: SpritesShogi_22
+  - first:
+      213: 1209712326096831006
+    second: SpritesShogi_23
+  - first:
+      213: 7742264297602164149
+    second: SpritesShogi_24
+  - first:
+      213: 2771232553390673229
+    second: SpritesShogi_25
+  - first:
+      213: -1590556693765706469
+    second: SpritesShogi_26
+  - first:
+      213: 4602057260041300212
+    second: SpritesShogi_27
+  - first:
+      213: 8486527989493227590
+    second: SpritesShogi_28
+  - first:
+      213: -5739380542237319775
+    second: SpritesShogi_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpritesShogi_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 267
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a9350dc653e55a0800000000000000
+      internalID: -6530723668172760487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 267
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d53d20d52726fb0800000000000000
+      internalID: -4656033320942740073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 267
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1a4f634384c1960800000000000000
+      internalID: 7574008062427832804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_3
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 267
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed13e6711d09b580800000000000000
+      internalID: -8810996827313463837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 267
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2775b522863ab09a0800000000000000
+      internalID: -6265734788907575438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 268
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c4d9181649b9fa0800000000000000
+      internalID: -5792873349174702974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_6
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 268
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628c3830bfcb08b50800000000000000
+      internalID: 6593477640752187430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 270
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257b2b1de7fc37c60800000000000000
+      internalID: 7814817922008921938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 177
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1710f323ddb0a5e0800000000000000
+      internalID: -1900310328211663073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 177
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae144e0b582a8520800000000000000
+      internalID: 2705018897735884457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_10
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 176
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e0af84abc65dbb0800000000000000
+      internalID: -4911900271233593747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 178
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7f61f4f992ee5d0800000000000000
+      internalID: -3031439734970320955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_12
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 179
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce74e349f98e0aae0800000000000000
+      internalID: -1539975300476155924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_13
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 178
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bf03c131fbfe1e0800000000000000
+      internalID: -2166302806943663300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_14
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 180
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91866e3b90e579a0800000000000000
+      internalID: -6235831151653125733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 88
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230e5e72461715820800000000000000
+      internalID: 2905227909610725426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 88
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0940e3377849e98d0800000000000000
+      internalID: -2837667405721893744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 87
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cc3f8430bbad9e0800000000000000
+      internalID: -1595757495166186388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_18
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 89
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9621821a1b32740800000000000000
+      internalID: 5126136106597902796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 89
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343dfe57de9fe5cf0800000000000000
+      internalID: -261496930059693245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_20
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 90
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a70545566311e750800000000000000
+      internalID: 6332363881297807266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_21
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 89
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2981ffff5e08a6ce0800000000000000
+      internalID: -1411173807896455022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_22
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 93
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ee92943333f86a0800000000000000
+      internalID: -6444876246380057044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12c96583f2c9c010800000000000000
+      internalID: 1209712326096831006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_24
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b524cfbb5c027b60800000000000000
+      internalID: 7742264297602164149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_25
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d89de1355657620800000000000000
+      internalID: 2771232553390673229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_26
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 3
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1da9f83d153de9e0800000000000000
+      internalID: -1590556693765706469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_27
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 4
+        width: 63
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8e4ccf1bacddf30800000000000000
+      internalID: 4602057260041300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_28
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 3
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640672e2e3436c570800000000000000
+      internalID: 8486527989493227590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesShogi_29
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 4
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1add72d2ecf9950b0800000000000000
+      internalID: -5739380542237319775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
