@@ -21,7 +21,7 @@ public enum Team
 
 public abstract class Piece
 {
-    protected int2 coor;
+    public int2 coor;
     public PieceType type;
     public Team team;
 

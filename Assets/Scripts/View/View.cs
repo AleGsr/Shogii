@@ -29,12 +29,13 @@ public class View : MonoBehaviour
             {
                 gridView[i,j] = Instantiate(squareprefab, gridParent).GetComponent<SquareView>();
                 int2 coor = board.GetSquare(i, j).coor;
-                gridView[i, j].SetSquare(coor.x, coor.y);
+                gridView[i, j].SetSquare(coor.x, coor.y, this);
             }
 
         }
 
     }
+
 
     public void AddPiece(ref Piece piece, int2 coor)
     {
@@ -46,14 +47,10 @@ public class View : MonoBehaviour
         gridView[coor.x, coor.y].RemovrePiece();
     }
 
-    void Start()
+    public void SelectSquare(int2 gridPos)
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //Debug.Log("Presionao");
+        //Debug.Log(gridPos);
+        controller.SelectSquare(gridPos);
     }
 }
