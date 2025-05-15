@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4020570677641300282}
   - component: {fileID: 7818283870709549894}
+  - component: {fileID: 7932733618936361452}
   m_Layer: 5
   m_Name: Cementery
   m_TagString: Untagged
@@ -69,6 +70,25 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &7932733618936361452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5675441123062423759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37369385fac185a469d1b09d1042b392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pawnView: {fileID: 8175600889704072298}
+  spearView: {fileID: 8003423202842738336}
+  horseView: {fileID: 7840958115596962024}
+  silverView: {fileID: 8836765809547462261}
+  goldView: {fileID: 6433698888615521876}
+  towerView: {fileID: 6308581837165499515}
+  bishopView: {fileID: 5810108456368923269}
 --- !u!1001 &141068487390018234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87,7 +107,7 @@ PrefabInstance:
       objectReference: {fileID: -5792873349174702974, guid: f5b27b02394d1b44cbbf4d4f909bbd71, type: 3}
     - target: {fileID: 6925941733023242483, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Name
-      value: CementeryCell (2)
+      value: HorseCell
       objectReference: {fileID: 0}
     - target: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Pivot.x
@@ -185,6 +205,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7840958115596962024 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7864833982448120402, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
+  m_PrefabInstance: {fileID: 141068487390018234}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0439b6cf80548e4c877bee829046923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8156888185972392619 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
@@ -208,7 +239,7 @@ PrefabInstance:
       objectReference: {fileID: 6593477640752187430, guid: f5b27b02394d1b44cbbf4d4f909bbd71, type: 3}
     - target: {fileID: 6925941733023242483, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Name
-      value: CementeryCell (1)
+      value: SpearCell
       objectReference: {fileID: 0}
     - target: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Pivot.x
@@ -306,6 +337,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8003423202842738336 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7864833982448120402, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
+  m_PrefabInstance: {fileID: 158855419697220850}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0439b6cf80548e4c877bee829046923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8282794495555663075 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
@@ -329,7 +371,7 @@ PrefabInstance:
       objectReference: {fileID: -6265734788907575438, guid: f5b27b02394d1b44cbbf4d4f909bbd71, type: 3}
     - target: {fileID: 6925941733023242483, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Name
-      value: CementeryCell (3)
+      value: SilverCell
       objectReference: {fileID: 0}
     - target: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Pivot.x
@@ -432,6 +474,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
   m_PrefabInstance: {fileID: 1695604680360031271}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8836765809547462261 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7864833982448120402, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
+  m_PrefabInstance: {fileID: 1695604680360031271}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0439b6cf80548e4c877bee829046923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2040149766168409656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -450,7 +503,7 @@ PrefabInstance:
       objectReference: {fileID: 7814817922008921938, guid: f5b27b02394d1b44cbbf4d4f909bbd71, type: 3}
     - target: {fileID: 6925941733023242483, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Name
-      value: CementeryCell
+      value: PawnCell
       objectReference: {fileID: 0}
     - target: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Pivot.x
@@ -553,6 +606,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
   m_PrefabInstance: {fileID: 2040149766168409656}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8175600889704072298 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7864833982448120402, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
+  m_PrefabInstance: {fileID: 2040149766168409656}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0439b6cf80548e4c877bee829046923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3777561154629229574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -571,7 +635,7 @@ PrefabInstance:
       objectReference: {fileID: -8810996827313463837, guid: f5b27b02394d1b44cbbf4d4f909bbd71, type: 3}
     - target: {fileID: 6925941733023242483, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Name
-      value: CementeryCell (4)
+      value: GoldCell
       objectReference: {fileID: 0}
     - target: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Pivot.x
@@ -663,6 +727,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
   m_PrefabInstance: {fileID: 3777561154629229574}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6433698888615521876 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7864833982448120402, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
+  m_PrefabInstance: {fileID: 3777561154629229574}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0439b6cf80548e4c877bee829046923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7001691180966360540 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6145046050735483354, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
@@ -692,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 7574008062427832804, guid: f5b27b02394d1b44cbbf4d4f909bbd71, type: 3}
     - target: {fileID: 6925941733023242483, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Name
-      value: CementeryCell (5)
+      value: TowerCell
       objectReference: {fileID: 0}
     - target: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Pivot.x
@@ -784,6 +859,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
   m_PrefabInstance: {fileID: 4226932917777376809}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6308581837165499515 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7864833982448120402, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
+  m_PrefabInstance: {fileID: 4226932917777376809}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0439b6cf80548e4c877bee829046923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8065528863373381619 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6145046050735483354, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
@@ -813,7 +899,7 @@ PrefabInstance:
       objectReference: {fileID: -4656033320942740073, guid: f5b27b02394d1b44cbbf4d4f909bbd71, type: 3}
     - target: {fileID: 6925941733023242483, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Name
-      value: CementeryCell (6)
+      value: BishopCell
       objectReference: {fileID: 0}
     - target: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
       propertyPath: m_Pivot.x
@@ -905,6 +991,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8126248119820433425, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
   m_PrefabInstance: {fileID: 4432709773827330263}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5810108456368923269 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7864833982448120402, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
+  m_PrefabInstance: {fileID: 4432709773827330263}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0439b6cf80548e4c877bee829046923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7549071870144821517 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6145046050735483354, guid: e29af1f6ac96f8e4ab729a3ff17b9ce9, type: 3}
