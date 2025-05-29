@@ -19,6 +19,7 @@ public class CementeryCellView : MonoBehaviour
     public void SetCementeryView(View view, PieceType pieceType)
     {
         this.view = view;
+        this.pieceType = pieceType;
 
     }
 

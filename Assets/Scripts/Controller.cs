@@ -2,6 +2,7 @@ using NUnit.Framework;
 using Unity.Mathematics;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Numerics;
 
 
 public class Controller
@@ -39,6 +40,8 @@ public class Controller
 
     void SetBoard()
     {
+
+
         //BlackTeam
         CreatePiece(new int2(0,0), PieceType.Spear, Team.Black);
         CreatePiece(new int2(0,1), PieceType.Horse, Team.Black);
@@ -88,6 +91,14 @@ public class Controller
         CreatePiece(new int2(8, 6), PieceType.Silver, Team.White);
         CreatePiece(new int2(8, 7), PieceType.Horse, Team.White);
         CreatePiece(new int2(8, 8), PieceType.Spear, Team.White);
+
+        CreatePiece(new int2(2, 3), PieceType.Silver, Team.White);
+
+        CreatePiece(new int2(6, 3), PieceType.Silver, Team.Black);
+
+
+
+
     }
 
     public void SelectSquare(int2 gridPos)
@@ -142,7 +153,45 @@ public class Controller
         List<int2> pieceMoves = selectedPiece.GetMoves();
         int2 pieceCoor = selectedPiece.coor;
 
-        if (selectedPiece.GetType().IsSubclassOf(typeof(SingleMovePiece)))
+
+        if (selectedPiece.GetType().IsSubclassOf(typeof(ComplexUpgradedPiece)))
+        {
+            ComplexUpgradedPiece complexPiece = (ComplexUpgradedPiece)piece;
+            foreach (int2 move in complexPiece.GetComplexMoves().moves)
+            {
+                int2 newCoor;
+                newCoor.y = move.x;
+                newCoor.x = currentTurn == Team.White ? move.y : -move.y;
+                newCoor += pieceCoor;
+
+                if (newCoor.x < 0 || newCoor.x >= ROWS) continue;
+                if (newCoor.y < 0 || newCoor.y >= COLS) continue;
+                if (board.GetSquare(newCoor.x, newCoor.y).piece != null)
+                {
+                    if (board.GetSquare(newCoor.x, newCoor.y).piece.team == currentTurn) continue;
+                }
+                validMoves.Add(newCoor);
+
+            }
+            foreach (int2 directions in complexPiece.GetComplexMoves().directions)
+            {
+                for (int i = 1; i <= 8; i++)
+                {
+                    int2 newCoor = pieceCoor + directions * i;
+                    if (newCoor.x < 0 || newCoor.x >= ROWS) break;
+                    if (newCoor.y < 0 || newCoor.y >= COLS) break;
+                    if (board.GetSquare(newCoor.x, newCoor.y).piece != null)
+                    {
+                        if (board.GetSquare(newCoor.x, newCoor.y).piece.team == currentTurn) break;
+                        validMoves.Add(newCoor);
+                        break;
+                    }
+                    validMoves.Add(newCoor);
+                }
+
+            }
+        }
+        else if (selectedPiece.GetType().IsSubclassOf(typeof(SingleMovePiece)))
         {
             foreach (int2 move in pieceMoves)
             {
@@ -232,8 +281,26 @@ public class Controller
 
     void EatPiece(ref Piece eatenPiece)
     {
+        if (eatenPiece.type == PieceType.King)
+        {
+            string win = currentTurn == Team.White ? "whitePlayer wins" : "blackPlayer wins";
+            Debug.Log(win);
+        }
         eatenPiece.coor = new int2(-1, -1);
         eatenPiece.team = currentTurn;
+
+        if(eatenPiece.upgradable) //Eat Upgradable unupradable piece
+        {
+            eatenPiece.otherSidePiece.team = currentTurn;
+        }
+
+        if (eatenPiece.GetType().IsSubclassOf(typeof(UpgradePiece))) //Eat Upgraded Piece
+        {
+            eatenPiece.otherSidePiece.team = currentTurn;
+            eatenPiece = eatenPiece.otherSidePiece;
+        }
+
+
         Player currentPlayer = currentTurn == Team.White ? whitePlayer : blackPlayer;
 
         switch(eatenPiece.type)
@@ -272,8 +339,10 @@ public class Controller
 
    void MoveSelectedPiece(Square selectedSquare)
     {
+        int2 prevPos = selectedPiece.coor;
         if (selectedPiece.coor.x >= 0) RemovePiece(selectedPiece.coor);
         AddPiece(ref selectedPiece, selectedSquare.coor);
+        CheckForUpgradeRequirements(selectedPiece,prevPos);
         selectedPiece = null;
     }
 
@@ -314,6 +383,29 @@ public class Controller
     {
         currentTurn = currentTurn == Team.White ? Team.Black : Team.White;
         view.EnableTeamCemetary(currentTurn);
+    }
+
+   // #region Piece Upgrading
+    void UpgradePiece (Piece pieceToUpgrade)
+    {
+        if (!pieceToUpgrade.upgradable) return;
+
+        RemovePiece(pieceToUpgrade.coor);
+        AddPiece(ref pieceToUpgrade.otherSidePiece,  pieceToUpgrade.coor);
+        pieceToUpgrade.coor = new int2(-1, -1);
+    }
+
+    void CheckForUpgradeRequirements(Piece pieceToUpgrade, int2 prevPos)
+    {
+        if (!pieceToUpgrade.upgradable) return;
+        if (prevPos.x < 0) return;
+        int upperEnemyRow = currentTurn == Team.White ? 0 : ROWS -3;
+        int lowerEnemyRow = currentTurn == Team.White ? 2 : ROWS -1;
+
+        int pieceRow = pieceToUpgrade.coor.x;
+
+        if (pieceRow >= upperEnemyRow && pieceRow <= lowerEnemyRow) UpgradePiece(pieceToUpgrade);
+        else if (prevPos.x >= upperEnemyRow && prevPos.x <= lowerEnemyRow) UpgradePiece(pieceToUpgrade);
     }
 
 
